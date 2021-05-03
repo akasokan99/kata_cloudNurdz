@@ -18,3 +18,14 @@ Fitness Functions
 
 
 Normal State
+
+
+
+Failure cases 
+
+
+Business continuity 
+
+
+
+Data Growth ??
