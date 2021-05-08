@@ -49,7 +49,8 @@ This will help ensure that the business will not need to replace their system fo
 Allow for scalability of the system if the number of users / customers  increases.
 Frequent updates from other interfaces like car rental, airport and hotel.
 Frequent data refresh from the interfaces for getting airlines, car rental and hotel information. 
-Risks/mitigations: 
+
+**Risks/mitigations:** 
 Reservation accuracy integrating with all the system’s is another risk we are working to solve with the overall system. By having a system driven process it allows us to remove potential human error and modernize a manual process of logging in to multiple systems to check on each reservation.
 Risk of displaying reservations made by someone else based on a frequent flier account or hotel point or car rental reward account. By having a notification or consent from the customer based on the phone number or email attached to the flier account we can validate if the dashboard user is the actual customer associated with the account.
 
@@ -64,7 +65,8 @@ Our deployment model is using cloud native features which provides scalable, hig
 
 **Business Continuity Plans:**
 When we thought about architecting the system we knew there were key factors we needed to consider in order to avoid unnecessary friction to the business process. The single page web application allows any user with a device that can connect to the internet the ability to view the Trip details on their dashboard.  Network connectivity is a crucial factor in the success of the online Trip Management, the Trip Management app would provide users the option to allow them to store data locally if they are in flight or can't connect to the internet so that they always have the details about their reservation. Once they connect to the internet the dashboard will be refreshed with the latest information.
-State Diagram:
+
+**State Diagram:**
 	A critical factor of the system is handling the user volume and providing the information in real time.  When the trip management portal loads the trip information between a threshold (>1s and < 3s), the overall application would be in a warning state, when the portal loads the trip information above a threshold of >3s, it would be in an alarm state notifying the operations team. 
 
 **User Growth (Increase in the number of users):**
