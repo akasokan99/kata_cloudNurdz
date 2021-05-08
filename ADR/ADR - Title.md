@@ -1,22 +1,21 @@
-Title: 
-These documents have names that are short noun phrases. 
-For example, "ADR 1: Deployment on Ruby on Rails 3.0.10" or "ADR 9: LDAP for Multitenant Integration"
+**Title:**
 
-Context: 
-This section describes the forces at play, including technological, political, social, and project local. 
-These forces are probably in tension, and should be called out as such. The language in this section is value-neutral. It is simply describing facts.
+Reuse the existing API's from the agency reservation system to provide seemless
 
-Decision: 
+**Context:** 
 
-This section describes our response to these forces. It is stated in full sentences, with active voice. "We will …"
+As the agency builds new portal for various features, building / using an API -first approach is crtical to build headless app's as it gives 
+flexibility for the agency to build addtional portals. 
 
-Status: 
+**Decision:**
 
-A decision may be "proposed" if the project stakeholders haven't agreed with it yet, or "accepted" once it is agreed. 
-If a later ADR changes or reverses a decision, it may be marked as "deprecated" or "superseded" with a reference to its replacement.
+We made a decision to reuse the exisitng reservation API's so that it provides seemless experience to the agnecy's reservation and agency trip management 
+system and allows customer to have more reliable information as the data comes from the same source of truth using API's 
 
+**Status:** 
+
+Approved by all the parties involved (Architects, business owners, product owners, Development team) 
 Consequences: 
 
-This section describes the resulting context, after applying the decision. 
-All consequences should be listed here, not just the "positive" ones. A particular decision may have positive, negative, and neutral consequences,
-but all of them affect the team and project in the future.
+**Consequences:**
+
