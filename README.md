@@ -4,6 +4,7 @@
 
  
 **Introduction**
+  
   **Purpose **
   
       Outline the architectural design and requirements for an online trip management dashboard for customers to view all of their existing reservations.
