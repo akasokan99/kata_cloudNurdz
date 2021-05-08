@@ -19,7 +19,7 @@
     	4. Customers shall have an option to group the trip information and the system shall not display the expired reservation. 
     	5. Customers shall share the trip information through social media websites. 
  
-  [Assumptions](ADR/Assumptions.md) for Trip Management System.
+  [Assumptions](Assumptions.md) for Trip Management System.
 
 ****Solution Approach:****
 
