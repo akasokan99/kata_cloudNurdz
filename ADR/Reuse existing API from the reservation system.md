@@ -14,7 +14,7 @@ system and allows customer to have more reliable information as the data comes f
 
 **Status:** 
 
-Approved by all the parties involved (Architects, business owners, product owners, Development team) 
+Approved by all the parties involved (Architects, Business owners, Product owners, Development team) 
 
 **Consequences:**
 
