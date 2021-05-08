@@ -3,11 +3,11 @@
 **Members:** Anandhakumar Asokan / Nagendar Peethambaram / Pradeep Sarangula
 
  
-**Introduction**
+**Introduction:**
   
-  **Purpose**
+  **Purpose:**
   
-      Outline the architectural design and requirements for an online trip management dashboard for customers to view all of their existing reservations.
+   Outline the architectural design and requirements for an online trip management dashboard for customers to view all of their existing reservations.
   
   **Scope:**
       Requirements that needs to be met as part of this Kata are as follows:  
