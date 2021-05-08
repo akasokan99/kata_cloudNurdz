@@ -45,11 +45,11 @@
 
 **Architecture Style and Benefits:**
 
-	Microservice - Provides modular approach using domain driven concepts keeping the functions loosely coupled with one another to give greater extensibility capabilities for building new features to the product.This will help ensure that the business will not need to replace their system for the foreseeable future.Allow for scalability of the system if the number of users / customers  increases.Frequent updates from other interfaces like car rental, airport and hotel.Frequent data refresh from the interfaces for getting airlines, car rental and hotel information. 
+Microservice - Provides modular approach using domain driven concepts keeping the functions loosely coupled with one another to give greater extensibility capabilities for building new features to the product.This will help ensure that the business will not need to replace their system for the foreseeable future.Allow for scalability of the system if the number of users / customers  increases.Frequent updates from other interfaces like car rental, airport and hotel.Frequent data refresh from the interfaces for getting airlines, car rental and hotel information. 
 
 **Risks/mitigations:** 
 
-	Reservation accuracy integrating with all the system’s is another risk we are working to solve with the overall system. By having a system driven process it allows us to remove potential human error and modernize a manual process of logging in to multiple systems to check on each reservation.
+Reservation accuracy integrating with all the system’s is another risk we are working to solve with the overall system. By having a system driven process it allows us to remove potential human error and modernize a manual process of logging in to multiple systems to check on each reservation.
 Risk of displaying reservations made by someone else based on a frequent flier account or hotel point or car rental reward account. By having a notification or consent from the customer based on the phone number or email attached to the flier account we can validate if the dashboard user is the actual customer associated with the account.
 
 **Other Architecture Options :**
