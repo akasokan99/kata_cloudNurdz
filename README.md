@@ -10,7 +10,8 @@
    Outline the architectural design and requirements for an online trip management dashboard for customers to view all of their existing reservations.
   
   **Scope:**
-      Requirements that needs to be met as part of this Kata are as follows:        
+  
+  Requirements that needs to be met as part of this Kata are as follows:        
 	1. The Trip management portal shall allow users to view all of their existing reservations either
 	  through desktop browser or through their mobile device app or browser.  
 	2. The application shall interface with the airline, hotel and car rental interface system through 
