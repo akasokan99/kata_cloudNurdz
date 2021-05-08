@@ -19,7 +19,7 @@
     	4. Customers shall have an option to group the trip information and the system shall not display the expired reservation. 
     	5. Customers shall share the trip information through social media websites. 
  
-  [Assumptions](ADR/Assumptions.md) for the Trip Management System.
+  [Assumptions](ADR/Assumptions.md) for Trip Management System.
 
 ****Solution Approach:****
 
@@ -73,6 +73,7 @@ When we thought about architecting the system we knew there were key factors we 
 **State Diagram:**
 
 A critical factor of the system is handling the user volume and providing the information in real time.  When the trip management portal loads the trip information between a threshold (>1s and < 3s), the overall application would be in a warning state, when the portal loads the trip information above a threshold of >3s, it would be in an alarm state notifying the operations team. 
+![**State Diagram:**](Architecture/StateDiagram.JPG)
 
 **User Growth (Increase in the number of users):**
 
