@@ -35,7 +35,7 @@
 **Architecture Style :**
 We have chosen a microservices architecture. The trip management system requires real time refresh of the dashboard. Dashboard displays the existing reservations (made through Agency system) through a web portal or mobile device. This can be implemented by integrating the Agency system API components. Whenever a user logs into the trip management system, all the user’s latest reservations are pulled from the Agency system. For the realtime user updates on the web portal/mobile, we have chosen to design the system as a single page application.The proposed architecture for the Trip Management system is a modular and highly decoupled system which can be enhanced and integrated with third party systems seamlessly without altering the core Trip Management system framework. The Trip Management system is designed to integrate with the existing Agency system API for retrieving the reservation details.
 
-[**Architecture Diagram:**](https://github.com/akasokan99/kata_cloudNurdz/blob/main/Architecture/Logical/Logical_Architecture.png)
+![**Architecture Diagram:**](Architecture/Logical/Logical_Architecture.png)
 
 **Process flow for Trip Management Real Time updates:**
 
