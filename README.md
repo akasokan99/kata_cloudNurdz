@@ -10,12 +10,13 @@
    Outline the architectural design and requirements for an online trip management dashboard for customers to view all of their existing reservations.
   
   **Scope:**
-      Requirements that needs to be met as part of this Kata are as follows:  
-		
-	 1.  The Trip management portal shall allow users to view all of their existing reservations either through desktop browser or through their mobile 	device app or browser.  
-	 2.  The application shall interface with the airline, hotel and car rental interface system through the existing agency reservation business API’s to automatically load reservations and display it in the dashboard.  
-    	 3. Customers shall have the ability to add existing reservations manually to the dashboard.	
-    	 4. Customers shall have an option to group the trip information and the system shall not display the expired reservation. 
+      Requirements that needs to be met as part of this Kata are as follows:  		
+	 1.  The Trip management portal shall allow users to view all of their 
+		 existing reservations either through desktop browser or through their mobile device app or browser.  
+	 2.  The application shall interface with the airline, hotel and car rental interface system through the existing agency 
+	     reservation business API’s to automatically load reservations and display it in the dashboard.  
+	 3. Customers shall have the ability to add existing reservations manually to the dashboard.
+	 4. Customers shall have an option to group the trip information and the system shall not display the expired reservation. 
 	 5. Customers shall share the trip information through social media websites. 
  
 ****Solution Approach:****
@@ -79,9 +80,3 @@ Dashboard will display all the details only from within the agency and data from
 User’s will be able to add existing reservations for flight, car rental or airport within the agency and external sites are not in scope for this architecture design.
 The frequent flier accounts, hotel point accounts, and car rental rewards. accounts are already validated as part of the agency’s existing airline, hotel, and car rental interface system.
 Users would be using the reservation id’s or confirmation number or booking id to add existing reservations.
- 
- 
- 
-
-
-
