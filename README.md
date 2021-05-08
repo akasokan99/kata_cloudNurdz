@@ -12,17 +12,17 @@
   **Scope:**
       Requirements that needs to be met as part of this Kata are as follows:  
 		
-		 1.  The Trip management portal shall allow users to view all of their existing reservations either through desktop browser 
-		  or through their mobile device app or browser.  
+	 1.  The Trip management portal shall allow users to view all of their 
+		 existing reservations either through desktop browser or through their mobile device app or browser.  
 		
-		 2.  The application shall interface with the airline, hotel and car rental interface system through the existing agency 
+	 2.  The application shall interface with the airline, hotel and car rental interface system through the existing agency 
 		  reservation business API’s to automatically load reservations and display it in the dashboard.  
 		 
-		 3. Customers shall have the ability to add existing reservations manually to the dashboard.
+	 3. Customers shall have the ability to add existing reservations manually to the dashboard.
 		 
-		 4. Customers shall have an option to group the trip information and the system shall not display the expired reservation. 
+         4. Customers shall have an option to group the trip information and the system shall not display the expired reservation. 
 		 
-		 5. Customers shall share the trip information through social media websites. 
+         5. Customers shall share the trip information through social media websites. 
  
 ****Solution Approach:****
 
@@ -41,8 +41,6 @@
 
 **Architecture Style :**
 We have chosen a microservices architecture. The trip management system requires real time refresh of the dashboard. Dashboard displays the existing reservations (made through Agency system) through a web portal or mobile device. This can be implemented by integrating the Agency system API components. Whenever a user logs into the trip management system, all the user’s latest reservations are pulled from the Agency system. For the realtime user updates on the web portal/mobile, we have chosen to design the system as a single page application.The proposed architecture for the Trip Management system is a modular and highly decoupled system which can be enhanced and integrated with third party systems seamlessly without altering the core Trip Management system framework. The Trip Management system is designed to integrate with the existing Agency system API for retrieving the reservation details.
-
-**Architecture Diagram:**
 
 ![**Architecture Diagram:**](Architecture/Logical/Logical_Architecture.png)
 
@@ -66,7 +64,6 @@ Our deployment model is using cloud native features which provides scalable, hig
 
 **Deployment Diagram:**
 
-![**Deployment Diagram:**](Architecture/Deployment/Deployment_Architecture.png)
 
 **Business Continuity Plans:**
 When we thought about architecting the system we knew there were key factors we needed to consider in order to avoid unnecessary friction to the business process. The single page web application allows any user with a device that can connect to the internet the ability to view the Trip details on their dashboard.  Network connectivity is a crucial factor in the success of the online Trip Management, the Trip Management app would provide users the option to allow them to store data locally if they are in flight or can't connect to the internet so that they always have the details about their reservation. Once they connect to the internet the dashboard will be refreshed with the latest information.
