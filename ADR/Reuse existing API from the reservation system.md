@@ -1,11 +1,11 @@
 **Title:**
 
-Reuse the existing API's from the agency reservation system to provide seemless
+Reuse the existing API's from the agency reservation system
 
 **Context:** 
 
 As the agency builds new portal for various features, building / using an API -first approach is crtical to build headless app's as it gives 
-flexibility for the agency to build addtional portals. 
+flexibility for the agency to build additional portals. 
 
 **Decision:**
 
@@ -15,7 +15,11 @@ system and allows customer to have more reliable information as the data comes f
 **Status:** 
 
 Approved by all the parties involved (Architects, business owners, product owners, Development team) 
-Consequences: 
 
 **Consequences:**
+
+Any changes in the API may have adverse impact to the consumers in this case agency trip management and reservation portal. But the versioning should mitigate
+impact
+
+
 
