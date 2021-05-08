@@ -19,7 +19,7 @@
          4. Customers shall have an option to group the trip information and the system shall not display the expired reservation. 
          5. Customers shall share the trip information through social media websites. 
  
-**Solution Approach**
+****Solution Approach****
 
 **Architecture Challenges :**
  
