@@ -72,6 +72,5 @@ A critical factor of the system is handling the user volume and providing the in
 
 Based on the microservices based cloud deployment that we are proposing, we can autoscale the needs to support the data volume or number of users accessing the dashboard to view the trip management.
 
- [Fitness Functions](Fitness Functions.md) for Trip Management System
-
+ [Fitness Functions](https://github.com/akasokan99/kata_cloudNurdz/blob/b64ea14cf4b910911e412605775205cdc68f54aa/Fitness%20Functions.md) for Trip Management System
 
