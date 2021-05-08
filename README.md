@@ -66,6 +66,7 @@ Our deployment model is using cloud native features which provides scalable, hig
 
 **Deployment Diagram:**
 
+![**Deployment Diagram:**](Architecture/Deployment/Deployment_Architecture.png)
 
 **Business Continuity Plans:**
 When we thought about architecting the system we knew there were key factors we needed to consider in order to avoid unnecessary friction to the business process. The single page web application allows any user with a device that can connect to the internet the ability to view the Trip details on their dashboard.  Network connectivity is a crucial factor in the success of the online Trip Management, the Trip Management app would provide users the option to allow them to store data locally if they are in flight or can't connect to the internet so that they always have the details about their reservation. Once they connect to the internet the dashboard will be refreshed with the latest information.
