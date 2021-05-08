@@ -1,13 +1,15 @@
-Team Information : CloudNurdz
-         Members: Anandhakumar Asokan
+**Team Information :** CloudNurdz
+         **Members:** Anandhakumar Asokan
                   Nagendar Peethambaram
                   Pradeep Sarangula
 
  
 **Introduction**
-  Purpose 
+  **Purpose **
+  
       Outline the architectural design and requirements for an online trip management dashboard for customers to view all of their existing reservations.
-  Scope:
+  
+  **Scope:**
       Requirements that needs to be met as part of this Kata are as follows:  
          1.  The Trip management portal shall allow users to view all of their existing reservations either through desktop browser 
           or through their mobile device app or browser.  
@@ -19,7 +21,7 @@ Team Information : CloudNurdz
  
 **Solution Approach**
 
-Architecture Challenges :
+**Architecture Challenges :**
  
   1. System must support multiple sessions and multiple users at a given time 
   2. Real time updates to the customer dashboard should be seamless with existing travel systems as it's critical for the customer
@@ -27,7 +29,8 @@ Architecture Challenges :
   3. Security implementation is critical as the customer should not have the option to look at any trip information 
      using the reservation code. Customers shall look at the reservation pertaining to their travel / trips.
 
-Solution Architecture :
+**Solution Architecture :**
+
 	The Road Warrior is a major travel agency that wants to build the next generation online trip management dashboard which will allow the users to see all of their existing reservations organized by trip either online or through their mobile devices.As long as users have access to a network capable device connected to the internet and access to the dashboard they can review the existing reservations from anywhere. The system is designed for high scalability using cloud deployment models and integrates with the agency's existing airline, hotel and car rental systems in order to automatically load reservations via frequent flier accounts, hotel point and car rental reward accounts for validating or updating the travel information to the dashboard. Architecture is based on real time(API), web sockets and event driven styles. 
 
 **Architecture Style :**
@@ -52,7 +55,9 @@ Risk of displaying reservations made by someone else based on a frequent flier a
 **Other Architecture Options : **
 
  	We discussed having another menu / feature item in the existing agency reservation portal to view the trip management information by reusing the existing pipelines for getting data , existing web portal interfaces. But thinking in terms of offering this as a new product for the users to provide the users for managing the trips and also to offer the best offers with the favored vendors / partnership ,creating separate portal and reusing the agency reservation API provides the agency to think on API-first approach and to build headless application / portals for serving the users for reservation and trip management. 
-Deployment Architecture: 
+
+**Deployment Architecture: **
+
 Our deployment model is using cloud native features which provides scalable, highly resilient infrastructure for the solution. It also helps in reduced maintenance and allows us to focus on delivering more business value than managing the infrastructure. 
 
 
