@@ -48,10 +48,10 @@ Risks/mitigations:
 Reservation accuracy integrating with all the system’s is another risk we are working to solve with the overall system. By having a system driven process it allows us to remove potential human error and modernize a manual process of logging in to multiple systems to check on each reservation.
 Risk of displaying reservations made by someone else based on a frequent flier account or hotel point or car rental reward account. By having a notification or consent from the customer based on the phone number or email attached to the flier account we can validate if the dashboard user is the actual customer associated with the account.
 
-**Other Architecture Options : **
+**Other Architecture Options :**
  	We discussed having another menu / feature item in the existing agency reservation portal to view the trip management information by reusing the existing pipelines for getting data , existing web portal interfaces. But thinking in terms of offering this as a new product for the users to provide the users for managing the trips and also to offer the best offers with the favored vendors / partnership ,creating separate portal and reusing the agency reservation API provides the agency to think on API-first approach and to build headless application / portals for serving the users for reservation and trip management. 
 
-**Deployment Architecture: **
+**Deployment Architecture:**
 Our deployment model is using cloud native features which provides scalable, highly resilient infrastructure for the solution. It also helps in reduced maintenance and allows us to focus on delivering more business value than managing the infrastructure. 
 
 **Deployment Diagram:**
