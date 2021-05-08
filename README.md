@@ -1,4 +1,4 @@
-**Team Information :** **CloudNurdz**
+**Team Name :** **CloudNurdz**
 
 **Members:** *Anandhakumar Asokan / Nagendar Peethambaram / Pradeep Sarangula*
 
