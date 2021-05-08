@@ -57,7 +57,7 @@ Risk of displaying reservations made by someone else based on a frequent flier a
 **Deployment Architecture:**
 Our deployment model is using cloud native features which provides scalable, highly resilient infrastructure for the solution. It also helps in reduced maintenance and allows us to focus on delivering more business value than managing the infrastructure. 
 
-**Deployment Diagram:**
+![**Deployment Diagram:**](https://github.com/akasokan99/kata_cloudNurdz/blob/main/Architecture/Deployment/Deployment_Architecture.png)
 
 
 **Business Continuity Plans:**
