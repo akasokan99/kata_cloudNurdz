@@ -1,4 +1,3 @@
-
 The Trip management portal shall allow users to view all of their existing reservations either through desktop browser or through their mobile device app or browser.  
 The application shall interface with the airline, hotel and car rental interface system through the existing agency reservation business API’s to automatically load reservations and display it in the dashboard.  
 Customers shall have the ability to add existing reservations manually to the dashboard.
