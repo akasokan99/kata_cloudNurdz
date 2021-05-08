@@ -66,7 +66,7 @@ State Diagram:
 **User Growth (Increase in the number of users):**
 Based on the microservices based cloud deployment that we are proposing, we can autoscale the needs to support the data volume or number of users accessing the dashboard to view the trip management.
 
-**Fitness Functions: **
+**Fitness Functions:**
 A thing to watch here for fitness functions are availability and scalability if all the users try to access the system at the same time, since we have cloud deployment this shouldn’t be an issue and managing it with auto-scale using cloud providers will provide a lot of flexibility for the cost. We would also write load handling tests to flood our system with hundreds of parallel Trip Management sessions with varying levels of users. We would then check on response times to verify if our system scaled to the appropriate level.This would be a great indicator to determine what resources in our pipeline need to be scaled up or down to find an ideal allocation of resources to handle different traffic patterns. 
 
 Availability - Modular approach provides high availability of a component aided with cloud infrastructure. 
