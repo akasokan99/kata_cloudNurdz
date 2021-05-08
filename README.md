@@ -44,6 +44,7 @@ We have chosen a microservices architecture. The trip management system requires
 ![**Architecture Diagram:**](Architecture/Logical/Logical_Architecture.png)
 
 **Process flow for Trip Management Real Time updates:**
+![**Process flow Diagram:**](Architecture/ProcessFlow.png)
 
 **Architecture Style and Benefits:**
 
