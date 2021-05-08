@@ -4,7 +4,7 @@ Reuse the existing API's from the agency reservation system
 
 **Context:** 
 
-As the agency builds new portal for various features, building / using an API -first approach is crtical to build headless app's as it gives 
+As the agency builds new portal for various features, building / using an API -first approach is critical to build headless app's as it gives 
 flexibility for the agency to build additional portals. 
 
 **Decision:**
