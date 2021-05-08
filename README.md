@@ -10,7 +10,7 @@
    Outline the architectural design and requirements for an online trip management dashboard for customers to view all of their existing reservations.
   
 
- [Requirements].(Requirements/Requirement.md) for Trip Management System
+ [Requirements](Requirements/Requirement.md) for Trip Management System
   
  
  [Assumptions](Assumptions.md) for Trip Management System.
